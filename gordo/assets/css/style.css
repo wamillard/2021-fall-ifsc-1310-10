@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+h3, h4 {
+    text-align:center;
+}
+
+
+
+#gordo-pic {
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
+
+#dslayton {
+    display:block;
+}
