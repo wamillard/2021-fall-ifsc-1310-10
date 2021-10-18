@@ -12,6 +12,12 @@ html {
 
 /*------------------------------Utility Classes-------------------------------*/
 
+.container{
+    width:70vw;
+    margin:40px auto;
+    
+    
+}
 
 
 
@@ -40,6 +46,12 @@ h3, h4 {
 
 /*----------------------------Attribute Selectors-----------------------------*/
 
+#header{
+    
+    
+    
+}
+
 
 
 #gordo-pic {
@@ -47,6 +59,10 @@ h3, h4 {
     margin-right:auto;
     display: block;
 }
+
+
+
+
 
 #dslayton {
     display:block;
