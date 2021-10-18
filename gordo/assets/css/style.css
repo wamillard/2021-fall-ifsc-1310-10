@@ -1,3 +1,33 @@
+/*---------------------------------Box Sizing---------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*------------------------------Utility Classes-------------------------------*/
+
+
+
+
+
+/*------------------------------Responsive Images-----------------------------*/
+
+img{
+    max-width:100%
+    height:auto;
+}
+
+
+
+
+/*-------------------------------Global Styles--------------------------------*/
+
 h1 {
     text-align: center;
     font-size: 48px;
@@ -6,6 +36,9 @@ h1 {
 h3, h4 {
     text-align:center;
 }
+
+
+/*----------------------------Attribute Selectors-----------------------------*/
 
 
 
@@ -17,4 +50,25 @@ h3, h4 {
 
 #dslayton {
     display:block;
+}
+
+
+
+/*--------------------------------Media Query---------------------------------*/
+
+@media screen and (max-width:700px) {
+    
+    header.primary nav ul{
+        flex-direction:column;
+        max-width:70vw;
+        margin:auto;
+    }
+    
+    header.primary nav a{
+        display:block;
+    }
+    
+    header.primary nav li{
+        margin-bottom:10px;
+    }
 }
