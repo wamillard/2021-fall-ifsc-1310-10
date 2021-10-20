@@ -1,57 +1,87 @@
-/*---------------------------------Box Sizing---------------------------------*/
+/*--- Box Sizing---*/
 
 html {
-    box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 *,
 *:before,
-*:after {
-    box-sizing: inherit;
+*:after{
+	margin: 0px;
+	padding: 0px;
 }
 
-/*------------------------------Utility Classes-------------------------------*/
+/*---Utility Classes---*/
 
 
 
+/*  Global Styles  */
 
-/*------------------------------Responsive Images-----------------------------*/
+body {
+	background-color: #ECECEC;
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	text-align: center;
+	line-height: 24px;
+}
 
-img{
-    max-width:100%
-    height:auto;
+h1 {
+	color: #000;
+	font-weight: normal;
+	padding: 50px;
 }
 
 
+/*  Attribute Selectors */
 
-/*-------------------------------Global Styles--------------------------------*/
-
-
-
-
-
-
-
-/*----------------------------Attribute Selectors-----------------------------*/
-
+#wrapper {
+	background-color: #FFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#red {
+	background-color: #900;
+}
+#green {
+	background-color: #090;
+}
+#blue {
+	background-color: #00F;
+}
+#purple {
+	background-color: #63C;
+}
+#footer {
+	background-color: #666;
+}
 
 
 
 /*--------------------------------Media Query---------------------------------*/
 
 @media screen and (max-width:700px) {
-    
+
     header.primary nav ul{
         flex-direction:column;
         max-width:70vw;
         margin:auto;
     }
-    
+
     header.primary nav a{
         display:block;
     }
-    
+
     header.primary nav li{
         margin-bottom:10px;
     }
-}
+} 
