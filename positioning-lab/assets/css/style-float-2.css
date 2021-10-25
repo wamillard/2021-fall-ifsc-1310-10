@@ -37,32 +37,45 @@ h1 {
 
 #wrapper {
 	background-color: #FFF;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 1px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
+	border: 1px solid;
 	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 20px;
+
+	
 }
 #red {
 	background-color: #900;
+	float:left;
+	width: 185px;
+	height: 200px;
 }
 #green {
 	background-color: #090;
+	float:left;
+	width: 185px;
+	height: 200px;
+	margin-left: 20px;
 }
 #blue {
 	background-color: #00F;
+	float:left;
+	width: 185px;
+	height: 200px;
+	margin-left: 20px;
 }
 #purple {
 	background-color: #63C;
+	float:left;
+	width: 185px;
+	height: 200px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 #footer {
 	background-color: #666;
+	clear:both;
 }
 
 
