@@ -15,9 +15,6 @@ html {
 
 
 
-
-
-
 /*------------------------------Responsive Images-----------------------------*/
 
 img{
@@ -27,14 +24,17 @@ img{
 
 
 
-
-
-
 /*-------------------------------Global Styles--------------------------------*/
 
-* 
+*
 {
-    background-color:#ACE;
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: #000;
 }
 
 
@@ -43,6 +43,23 @@ img{
 
 /*----------------------------Attribute Selectors-----------------------------*/
 
+.gallery
+{
+    background-color: #CCC;
+    width: 730px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #999;
+    height: 516px;
+    overflow: hidden; /*Avoids showing all of the images while JS loads*/
+    border-radius: 4px;
+}
+
+.gallery img
+{
+    margin: 15px;
+}
 
 
 /*--------------------------------Media Query---------------------------------*/
